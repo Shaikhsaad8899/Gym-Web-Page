@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TradeX Application</title>
+    <!-- CSS only -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">WORKOUT</div>
+      <div class="hamburger">
+        <i class="fa fa-bars" style="font-size: 15px; color: white"></i>
+        <!-- <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div> -->
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <a href="">EXERCISE</a>
+          </li>
+          <li>
+            <a href=" ">TRAINER</a>
+          </li>
+          <li>
+            <a href=" ">PRICING</a>
+          </li>
+          <li>
+            <a href=" ">LOGIN</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="Top-Div">
+      <img src="assets/image 1(1).png" alt="" />
+      <div id="spanone">
+        <h3>
+          <span id="newSpan">NEW</span> High intensity workout to burn calories
+        </h3>
+      </div>
+      <div class="cardio">
+        <p>Cardio Exercise</p>
+        <span class="lorem-btn">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
+            ipsam quod, sunt provident illo adipisci consequatur nostrum tenetur
+            consequuntur laborum. <br />
+            <button id="btns1">Get Started</button
+            ><button id="btns2">Preview</button>
+          </p></span
+        >
+      </div>
+      <div class="stat">
+        <div class="stat-time">
+          <h1>38:14</h1>
+          <h6>TIME</h6>
+        </div>
+        <div class="stat-cal">
+          <h1>165</h1>
+          <h6>EST CALORIES</h6>
+        </div>
+      </div>
+    </div>
+    <div class="Mid-Div">
+      <div class="Mid-Div1">
+        <h1>Popular Exercises</h1>
+        <h6>SEE MORE EXERCISES</h6>
+      </div>
+      <div class="Cards">
+        <div class="Card1">
+              <img src="assets/image 4.png" alt="Card1">
+              <span id="Card11"> <h1>Treadmill</h1>  <h6>250 est calories</h6></span>
+              <span class="timer">
+                <p>58:24</p>
+              </span>
+            </div>
+        <div class="Card1">
+              <img src="assets/image 7.png" alt="Card1">
+              <span id="Card11"> <h1>Stretching</h1><h6>250 est calories</h6></span><span class="timer">
+                <p>58:24</p>
+              </span>
+            </div>
+        <div class="Card1">
+              <img src="assets/image 2.png" alt="Card1">
+              <span id="Card11"> <h1 >Yoga</h1>  <h6>250 est calories</h6></span><span class="timer">
+                <p>58:24</p>
+              </span> </div>
+        <div class="Card1">   
+              <img src="assets/image 5.png" alt="Card1">
+              <span id="Card11"> <h1>Running</h1>  <h6>250 est calories</h6></span> <span class="timer">
+                <p>58:24</p>
+              </span></div>
+        <div class="Card1">
+              <img src="assets/image 6.png" alt="Card1">
+              <span id="Card11"> <h1>Lifting</h1>  <h6>250 est calories</h6></span><span class="timer">
+                <p>58:24</p>
+              </span> </div>
+        <div class="Card1">
+                <img src="assets/image 3.png" alt="Card1">
+                <span id="Card11"> <h1>Pushup</h1>  <h6>250 est calories</h6></span><span class="timer">
+                    <p>58:24</p>
+                  </span> </div>
+        </div>
+         
+        </div>
+    </div>
+  </body>
+  <script>
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function () {
+      navBar = document.querySelector(".nav-bar");
+      navBar.classList.toggle("active");
+    };
+  </script>
+</html>
