@@ -154,8 +154,8 @@
   }
   .stat {
     position: absolute;
-    right: 5%;
-    top: 45%;
+    right: 10%;
+    top: 150px;
   }
   .stat-time {
     color: #FFE642;
@@ -472,8 +472,8 @@
   }
   .stat {
     position: absolute;
-    right: 5%;
-    top: 45%;
+    right: 4%;
+    top: 150px;
   }
   .stat-time {    color: #FFE642;
 
@@ -821,14 +821,14 @@
   .stat {
     position: absolute;
     right: 5%;
-    top: 45%;
+    top: 150px;
   }
   .stat-time {    color: #FFE642;
 
     margin: 0 0 010px 0;
     text-align: left;
-    width: 150px;
-    padding: 18px;
+    width: 120px;
+    padding: 10px;
     background-color: #191919;
     font-family: "Open Sans", sans-serif;
     border-radius: 17px;
@@ -837,8 +837,8 @@
 
     text-align: left;
     margin: 010px 05px 0 0;
-    width: 150px;
-    padding: 15px;
+    width: 120px;
+    padding: 10px;
     background-color: #191919;
     font-family: "Open Sans", sans-serif;
     border-radius: 17px;
@@ -1231,7 +1231,7 @@
   }
   .stat-time {
     color: #FFE642;
-    font-size: 18px;
+    font-size: 10px;
     margin: 0 0 010px 0;
     text-align: left;
     width: max-content;
@@ -1242,7 +1242,7 @@
   }
   .stat-cal {
     color: #FB1351;
-    font-size: 18px;
+    font-size: 10px;
     margin: 0 0 010px 0;
     text-align: left;
     width: max-content;
@@ -1609,12 +1609,12 @@
   }
   .stat {
     position: absolute;
-    right: 7%;
+    right: 10%;
     top: 90px;
   }
   .stat-time {
     color: #FFE642;
-    font-size: 4px;
+    font-size: 8px;
     margin: 0 0 010px 0;
     text-align: left;
     width: max-content;
@@ -1625,10 +1625,10 @@
   }
   .stat-cal {
     color: #FB1351;
-    font-size: 4px;
+    font-size: 8px;
     margin: 0 0 010px 0;
     text-align: left;
-    width: 30px;
+    width: max-content;
     padding: 5px;
     background-color: #191919;
     font-family: "Open Sans", sans-serif;
